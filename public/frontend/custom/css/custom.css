@@ -1,0 +1,214 @@
+body{   
+   margin-top: -58px;
+ }
+
+ .page-header{
+    background-color: #FFC2BB;
+ }
+ 
+ .page-caption { 
+    padding-top: 80px; 
+    padding-bottom: 174px; 
+}
+
+ .page-title { 
+    font-size: 48px; 
+    line-height: 1; 
+    font-weight: 600; 
+    text-align: center; 
+    color:black;
+    font-family: 'Caveat', cursive;
+    
+}
+ 
+ .card-section { 
+    position: relative; 
+    bottom: 120px; 
+}
+
+ .card-block { 
+    padding: 80px; 
+    background-color: 	#FF8883;
+ }
+
+ .card-title { 
+    margin-bottom: 60px; 
+}
+
+.form-control
+{
+    border-bottom: 2px solid whitesmoke;
+    background-color: transparent;
+    border-right: transparent;
+    border-left: transparent;
+    border-top: transparent;
+}
+
+::placeholder
+{
+   font-weight: bolder;
+}
+
+.btn
+{
+   font-family: 'Comfortaa', sans-serif;
+   font-weight: bold;
+}
+
+.btn:hover{
+   color: #FF8883;
+}
+
+.btn-light:hover
+{
+   color: white;
+   background-color: #FF8883;
+   font-family: 'Comfortaa', sans-serif;
+   border: 1px solid white;
+}
+
+
+
+.alert-danger li
+{
+   list-style-type: none;
+}
+
+
+
+input:checked + label {
+   text-decoration: line-through;
+   color: white;
+ }
+ 
+ label {
+   cursor: pointer;
+   font-style: italic;
+   font-family: 'Comfortaa', sans-serif;
+   
+ }
+
+.d-flex a
+{
+   text-decoration: none;
+   color: whitesmoke;
+   font-weight: bolder;
+   font-family: 'Comfortaa', sans-serif;
+   
+}
+
+.fa-pencil-square-o
+{
+   color: rgb(4, 104, 4);   
+}
+
+.fa-trash-o
+{
+   color: rgb(170, 12, 12);
+}
+
+.section-title h4
+{
+   font-family: 'Caveat', cursive;
+}
+
+#add
+{
+   background-color: white;
+   color: #FF8883;
+}
+
+#add:hover
+{
+   background-color: transparent;
+   color: white;
+}
+
+
+.user-list tbody td .user-subhead {
+  font-size: 13px;
+  font-style: italic;
+  font-weight: bolder;
+  font-family: 'Comfortaa', sans-serif;
+}
+
+
+/* TABLES */
+.table {
+   border-collapse: separate;
+}
+
+.table thead > tr > th {
+  border-bottom: 1px solid #C2C2C2;
+  padding-bottom: 0;
+}
+.table tbody > tr > td {
+  font-size: 0.875em;
+  background: #f5f5f5;
+  border-top: 10px solid #fff;
+  vertical-align: middle;
+  padding: 12px 8px;
+}
+.table tbody > tr > td:first-child,
+
+
+
+.table thead > tr > th > a.asc span:after {
+  content: "\f0dd";
+}
+.table thead > tr > th > a.desc span:after {
+  content: "\f0de";
+}
+
+.table tbody tr td .call-type {
+  display: block;
+  font-size: 0.75em;
+  text-align: center;
+}
+.table tbody tr td .first-line {
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 1.125em;
+}
+.table tbody tr td .first-line span {
+  font-size: 0.875em;
+  color: #c2c0c0;
+  font-weight: 300;
+}
+.table tbody tr td .second-line {
+  font-size: 0.875em;
+  line-height: 1.2;
+}
+.table a.table-link {
+  margin: 0 5px;
+  font-size: 1.125em;
+  color: green;
+}
+
+.table a.table-link:hover {
+   color: rgb(1, 83, 1);
+ }
+
+.table a.table-link.danger {
+  color: #fe635f;
+}
+.table a.table-link.danger:hover {
+  color: #dd504c;
+}
+
+.fa-check-square-o:checked
+{
+   text-decoration: line-through;
+   color: black;
+}
+
+.fa-check-square-o
+{
+   cursor: pointer;
+}
+
+
+
+
+
+
